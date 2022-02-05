@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        Montres m = new Montres(4, 54);
+        Montre m = new Montre(4, 54);
 
-        Personnes p = new Personnes("paul");
+        Personne p = new Personne("paul");
         p.porter(m);
         System.out.println("je suis:" + p.getNom());
         p.affiche().Heure();
@@ -12,9 +12,9 @@ public class Main {
         p.affiche().Heure();
         p.affiche().Min();
         p.retirer();
-        Montres montre_max = new Montres(12, 30);
+        Montre montre_max = new Montre(12, 30);
 
-        Personnes max = new Personnes("max");
+        Personne max = new Personne("max");
         max.porter(montre_max);
         p.demander(max);
     }

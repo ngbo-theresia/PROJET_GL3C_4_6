@@ -21,13 +21,4 @@ class MontresTest {
     @Test
     void min() {
     }
-
-
-
-    @Test
-    void avance(){
-        Montres montre =new montre(5,6);
-        montre.avance();
-        assertEquals(7,montre.getHeures);
-    }
 }
